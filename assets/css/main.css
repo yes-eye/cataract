@@ -1542,3 +1542,8 @@ button {
 @media (max-width: 860px) {
   .hero-info-bar { display: none; }
 }
+
+/* 모바일 히어로: 의료진 이미지 하단을 배경 하단과 맞춤 (몸이 잘려 보이는 문제 해결) */
+@media (max-width: 860px) {
+  .hero-container { padding-bottom: 0; }
+}
