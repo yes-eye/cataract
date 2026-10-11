@@ -1536,3 +1536,9 @@ button {
 /* 메인 장비 카드: 사진 전체 표시 */
 .equip-photo { background-color: #FFFFFF; border: 1px solid var(--border-color); }
 .equip-photo img { object-fit: contain; padding: 8px; }
+
+
+/* 모바일: 히어로 하단 연락처·진료시간 정보 바 숨김 (산만함 방지) */
+@media (max-width: 860px) {
+  .hero-info-bar { display: none; }
+}
