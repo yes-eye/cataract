@@ -1,0 +1,172 @@
+[
+  {
+    "id": "zeiss-sl-220",
+    "name": "Zeiss SL-220",
+    "category": "기본 검사",
+    "description": "정밀 세극등 현미경으로 각막, 수정체, 결막 등 전안부 미세 구조를 고배율로 정밀 관찰하는 기본 진단 장비입니다.",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": true,
+    "visible": true
+  },
+  {
+    "id": "clarvion",
+    "name": "CLARVION",
+    "category": "기본 검사",
+    "description": "안압 및 기본 굴절 이상을 정밀하게 측정하는 검사 장비입니다.",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": true,
+    "visible": true
+  },
+  {
+    "id": "topcon-ark-800",
+    "name": "TOPCON ARK-800",
+    "category": "기본 검사",
+    "description": "자동 굴절 및 각막 곡률 측정기로 눈의 근시, 원시, 난시 상태와 각막 곡률을 신속하고 정확하게 측정합니다.",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": true,
+    "visible": true
+  },
+  {
+    "id": "topcon-nct-800",
+    "name": "TOPCON NCT-800",
+    "category": "기본 검사",
+    "description": "부드러운 공기압을 이용하여 눈에 직접 접촉하지 않고 안압을 빠르고 편안하게 측정하는 비접촉식 안압계입니다.",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": true,
+    "visible": true
+  },
+  {
+    "id": "topcon-oct-1",
+    "name": "TOPCON OCT-1",
+    "category": "망막·안저 검사",
+    "description": "무산동 안저 촬영 장비",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": false,
+    "visible": true
+  },
+  {
+    "id": "optos-daytona",
+    "name": "Optos Daytona",
+    "category": "망막·안저 검사",
+    "description": "산동제 투여 없이 한 번의 촬영으로 망막의 약 80% 이상(200도 광각)을 신속하게 촬영하여 망막 질환 및 망막박리 등을 조기 진단합니다.",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": true,
+    "visible": true
+  },
+  {
+    "id": "oculus-keratograph-5m",
+    "name": "Oculus Keratograph 5M",
+    "category": "백내장·전안부 정밀검사",
+    "description": "고해상도 컬러 카메라를 탑재하여 눈물막 파괴시간(NIKBUT), 마이봄샘 기능부전, 각막 지형도를 객관적 수치로 분석하는 안구건조증 정밀 진단 장비입니다.",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": true,
+    "visible": true
+  },
+  {
+    "id": "ziemer-galilei-g4",
+    "name": "Ziemer Galilei G4",
+    "category": "백내장·전안부 정밀검사",
+    "description": "듀얼 샤임플러그(Scheimpflug) 카메라와 플라시도 디스크를 결합하여 각막 전후면 3차원 형태, 두께 및 각막 수차를 오차 없이 측정하는 전안부 분석기입니다.",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": true,
+    "visible": true
+  },
+  {
+    "id": "konan-sp-9000",
+    "name": "KONAN SP-9000",
+    "category": "백내장·전안부 정밀검사",
+    "description": "각막 가장 안쪽에 위치한 내피세포의 모양과 밀도를 비접촉식으로 정밀 촬영하여 백내장 및 안과 수술 전후 안전성을 평가합니다.",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": true,
+    "visible": true
+  },
+  {
+    "id": "zeiss-iol-master-700",
+    "name": "Zeiss IOL Master 700",
+    "category": "백내장·전안부 정밀검사",
+    "description": "스웹트 소스(Swept Source) OCT 기술을 적용하여 혼탁이 심한 백내장에서도 안축장과 각막 곡률을 정확히 측정하는 최신 프리미엄 인공수정체 계산 장비입니다.",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": true,
+    "visible": true
+  },
+  {
+    "id": "zeiss-iol-master-500",
+    "name": "Zeiss IOL Master 500",
+    "category": "백내장·전안부 정밀검사",
+    "description": "비접촉식 레이저 간섭계를 이용하여 안축장 길이와 전방 깊이, 각막 난시를 빠르고 안전하게 측정하는 표준 인공수정체 도수 측정 장비입니다.",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": true,
+    "visible": true
+  },
+  {
+    "id": "stellaris",
+    "name": "Stellaris",
+    "category": "수술·레이저",
+    "description": "미세절개 초음파 백내장 및 유리체 망막 수술 장비 [확인 필요]",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": false,
+    "visible": true
+  },
+  {
+    "id": "leica-822",
+    "name": "Leica 822",
+    "category": "수술·레이저",
+    "description": "LED 직접 조명 시스템과 고해상도 광학 렌즈를 통해 백내장 수술 중 우수한 적색 반사와 선명한 시야를 제공하는 첨단 안과 수술 현미경입니다.",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": true,
+    "visible": true
+  },
+  {
+    "id": "vitra-810-optimis2",
+    "name": "Vitra 810 Optimis2",
+    "category": "수술·레이저",
+    "description": "망막 및 녹내장 레이저 치료 장비 [확인 필요]",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": false,
+    "visible": false
+  },
+  {
+    "id": "ds-40ub",
+    "name": "DS-40UB",
+    "category": "수술·레이저",
+    "description": "안과용 보조 장비 [확인 필요]",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": false,
+    "visible": false
+  },
+  {
+    "id": "jeisys-aqua-cel",
+    "name": "Jeisys AQUA Cel",
+    "category": "수술·레이저",
+    "description": "안구 주변 피부 및 건조증 케어 장비 [확인 필요]",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": false,
+    "visible": false
+  },
+  {
+    "id": "derma-s-ultra",
+    "name": "DERMA-S Ultra",
+    "category": "수술·레이저",
+    "description": "안과 미용 및 피부 관리 장비 [확인 필요]",
+    "floor": "[확인 필요]",
+    "image": "/assets/images/equipment/placeholder.webp",
+    "verified": false,
+    "visible": false
+  }
+]
