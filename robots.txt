@@ -52,4 +52,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://xn--hk3b17i.kr/sitemap.xml
+Sitemap: https://xn--220bq3dq4h3sb520a.com/sitemap.xml
