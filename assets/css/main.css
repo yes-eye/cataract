@@ -1113,18 +1113,83 @@ button {
 .overview-group-box {
   margin-top: 48px;
   display: flex;
-  gap: 36px;
+  gap: 48px;
   align-items: center;
 }
+/* 이미지만 표시: 테두리·배경·캡션 없음 */
 .overview-image-wrap {
-  flex: 1;
-  background-color: var(--gray-bg);
+  flex: 1 1 0;
+  min-width: 0;
+}
+.overview-tour-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: var(--radius-md);
-  overflow: hidden;
-  border: 1px solid var(--border-color);
 }
 .overview-text-content {
-  flex: 1.2;
+  flex: 1 1 0;
+  min-width: 0;
+}
+.overview-eyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--brand-primary);
+  margin-bottom: 8px;
+}
+.lifecycle-list {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.lifecycle-list li {
+  background: var(--brand-light);
+  border-left: 3px solid var(--brand-primary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.lifecycle-list strong {
+  color: var(--brand-navy);
+  font-size: 0.98rem;
+}
+.lifecycle-list span {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.overview-promise {
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.7;
+  color: var(--brand-navy);
+  padding-top: 16px;
+  border-top: 1px solid var(--border-color);
+}
+@media (max-width: 860px) {
+  .overview-group-box {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 28px;
+  }
+  .overview-image-wrap {
+    flex: none;
+    width: 100%;
+  }
+}
+@media (max-width: 520px) {
+  .lifecycle-list {
+    grid-template-columns: 1fr;
+  }
 }
 .overview-heading {
   font-size: 1.4rem;
@@ -1304,6 +1369,26 @@ button {
   color: var(--brand-primary);
 }
 
+/* 항목이 많은 학회 및 대외 활동: 전체 너비 + 2단 배열 */
+.doctor-detail-bottom-split {
+  grid-template-columns: minmax(220px, 1fr) 2.4fr;
+}
+.career-list-two-col {
+  column-count: 2;
+  column-gap: 32px;
+}
+.career-list-two-col li {
+  break-inside: avoid;
+}
+@media (max-width: 768px) {
+  .doctor-detail-bottom-split {
+    grid-template-columns: 1fr;
+  }
+  .career-list-two-col {
+    column-count: 1;
+  }
+}
+
 .doctor-cta-box {
   margin-top: 48px;
   background: var(--brand-gradient);
@@ -1475,8 +1560,10 @@ button {
   object-fit: contain;
   display: block;
 }
-.about-clinic-image { padding-top: 16px; background: linear-gradient(180deg, #F3F8FE 0%, #DCEBFA 100%); }
-@media (max-width: 860px) { .about-clinic-content { flex-direction: column; } }
+.about-clinic-image { padding: 0; background: none; border: 0; border-radius: 0; overflow: visible; flex: 1 1 0; min-width: 0; }
+.about-clinic-content { gap: 48px; }
+.about-clinic-desc { flex: 1 1 0; min-width: 0; }
+@media (max-width: 860px) { .about-clinic-content { flex-direction: column; align-items: stretch; gap: 28px; } .about-clinic-image { flex: none; width: 100%; } }
 
 
 /* Hero 배경: 병원 로비 사진을 반투명하게 깔아 의료진 이미지 뒤의 허전함 보완 */
