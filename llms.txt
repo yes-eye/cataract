@@ -48,12 +48,12 @@
 네이버 예약(https://m.booking.naver.com/booking/13/bizes/777556) 또는 전화(02-6956-1112)로 예약하실 수 있습니다.
 
 ## 주요 페이지
-- 메인: https://xn--220bq3dq4h3sb520a.com/
-- 병원소개: https://xn--220bq3dq4h3sb520a.com/about/
-- 의료진: https://xn--220bq3dq4h3sb520a.com/doctors/
-- 백내장: https://xn--220bq3dq4h3sb520a.com/cataract/
-- 드림렌즈: https://xn--220bq3dq4h3sb520a.com/dream-lens/
-- 진료안내: https://xn--220bq3dq4h3sb520a.com/treatments/
-- 의료장비: https://xn--220bq3dq4h3sb520a.com/equipment/
-- 오시는길: https://xn--220bq3dq4h3sb520a.com/location/
-- FAQ: https://xn--220bq3dq4h3sb520a.com/faq/
+- 메인: https://xn--220bq3dq4h3sb520a.kr/
+- 병원소개: https://xn--220bq3dq4h3sb520a.kr/about/
+- 의료진: https://xn--220bq3dq4h3sb520a.kr/doctors/
+- 백내장: https://xn--220bq3dq4h3sb520a.kr/cataract/
+- 드림렌즈: https://xn--220bq3dq4h3sb520a.kr/dream-lens/
+- 진료안내: https://xn--220bq3dq4h3sb520a.kr/treatments/
+- 의료장비: https://xn--220bq3dq4h3sb520a.kr/equipment/
+- 오시는길: https://xn--220bq3dq4h3sb520a.kr/location/
+- FAQ: https://xn--220bq3dq4h3sb520a.kr/faq/

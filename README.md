@@ -1,6 +1,6 @@
 # 예스안과의원 공식 웹사이트 프로젝트
 
-목동 예스안과의원(https://xn--220bq3dq4h3sb520a.com / 목동백내장.com)의 공식 웹사이트 정적(Static) 웹사이트 프로젝트입니다.  
+목동 예스안과의원(https://xn--220bq3dq4h3sb520a.kr / 목동백내장.kr)의 공식 웹사이트 정적(Static) 웹사이트 프로젝트입니다.  
 의료법 제56조(의료광고의 금지 등)를 엄격히 준수하고, 웹 접근성 표준(WCAG 2.1 AA)과 한국형 SEO(네이버 서치어드바이저, 구글 서치콘솔 등)에 최적화하여 제작되었습니다.
 
 ---
@@ -10,7 +10,7 @@
 - **병원명:** 예스안과의원 (대표자: 박진환)
 - **대표전화:** 02-6956-1112
 - **소재지:** 서울특별시 양천구 등촌로 32 목동태영프라자 (4층 수술센터 / 5층 외래검사센터)
-- **공식 도메인:** `https://xn--220bq3dq4h3sb520a.com` (한글 도메인: `목동백내장.com`)
+- **공식 도메인:** `https://xn--220bq3dq4h3sb520a.kr` (한글 도메인: `목동백내장.kr`)
 - **기술 스택:** 정적 웹 표준 (HTML5, Semantic Elements, CSS3, Vanilla JavaScript, JSON-LD Schema.org)
 - **온라인 예약:** 네이버 플레이스 예약 연동 (`https://m.booking.naver.com/booking/13/bizes/777556?theme=place&service-target=map-pc&lang=ko&area=pll`)
 
@@ -71,12 +71,12 @@ yesoph/
    - **Build output directory:** `/` (루트 디렉토리)
 5. **Save and Deploy** 버튼을 클릭하면 수초 내에 1차 배포 URL이 생성됩니다.
 
-### 3.2. 한글 도메인(`목동백내장.com`) 및 퓨니코드 연결
+### 3.2. 한글 도메인(`목동백내장.kr`) 및 퓨니코드 연결
 1. Cloudflare Pages 프로젝트 상세 페이지에서 **Custom domains** 탭으로 이동합니다.
 2. **Set up a custom domain**을 클릭합니다.
-3. 도메인 입력란에 퓨니코드 형식인 `xn--220bq3dq4h3sb520a.com` (또는 `www.xn--220bq3dq4h3sb520a.com`)을 입력합니다.
+3. 도메인 입력란에 퓨니코드 형식인 `xn--220bq3dq4h3sb520a.kr` (또는 `www.xn--220bq3dq4h3sb520a.kr`)을 입력합니다.
 4. 안내에 따라 DNS 호스팅 업체(가비아, 후이즈 등)에서 Cloudflare Nameserver로 변경하거나, CNAME 레코드를 지정합니다.
-5. DNS 전파 완료 후 Cloudflare의 **Universal SSL**에 의해 `https://xn--220bq3dq4h3sb520a.com`로 자동 HTTPS 보안 접속이 활성화됩니다.
+5. DNS 전파 완료 후 Cloudflare의 **Universal SSL**에 의해 `https://xn--220bq3dq4h3sb520a.kr`로 자동 HTTPS 보안 접속이 활성화됩니다.
 
 ---
 
@@ -85,9 +85,9 @@ yesoph/
 사이트 배포 완료 후 주요 검색 포털에 크롤링을 요청하고 소유권을 확인해야 합니다.
 
 - [ ] **네이버 서치어드바이저(Naver Search Advisor) 등록:**
-  - `https://searchadvisor.naver.com/` 접속 후 웹마스터 도구에 `https://xn--220bq3dq4h3sb520a.com` 사이트 등록
+  - `https://searchadvisor.naver.com/` 접속 후 웹마스터 도구에 `https://xn--220bq3dq4h3sb520a.kr` 사이트 등록
   - HTML 태그 메타인증 코드를 발급받아 각 페이지 `<head>` 태그 내 추가
-  - 요청 > 사이트맵 제출 메뉴에서 `https://xn--220bq3dq4h3sb520a.com/sitemap.xml` 제출
+  - 요청 > 사이트맵 제출 메뉴에서 `https://xn--220bq3dq4h3sb520a.kr/sitemap.xml` 제출
   - 웹페이지 수집 요청 실행
 - [ ] **구글 서치콘솔(Google Search Console) 등록:**
   - `https://search.google.com/search-console/` 접속 후 속성 추가
@@ -99,7 +99,7 @@ yesoph/
 - [ ] **다음(Daum) 검색등록:**
   - `https://register.search.daum.net/` 접속하여 사이트 검색등록 신청
 - [ ] **사이트맵(sitemap.xml) 정상 응답 확인:**
-  - `https://xn--220bq3dq4h3sb520a.com/sitemap.xml`이 올바른 200 OK 헤더와 XML 형식을 반환하는지 브라우저에서 검증
+  - `https://xn--220bq3dq4h3sb520a.kr/sitemap.xml`이 올바른 200 OK 헤더와 XML 형식을 반환하는지 브라우저에서 검증
 - [ ] **IndexNow 키 생성 및 제출:**
   - 네이버와 빙이 지원하는 빠른 색인 API(IndexNow) 키 텍스트 파일 생성 후 루트 배포 및 제출
 - [ ] **네이버 플레이스 정보 동기화 확인:**
