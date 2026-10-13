@@ -221,6 +221,17 @@ button {
   color: var(--brand-navy);
 }
 
+/* 이미지 로고 (PC 기본 / 모바일 축소) */
+.logo-img {
+  display: block;
+  height: 36px;
+  width: auto;
+  max-width: none;
+}
+@media (max-width: 640px) {
+  .logo-img { height: 30px; }
+}
+
 .nav-menu {
   display: flex;
   align-items: center;
